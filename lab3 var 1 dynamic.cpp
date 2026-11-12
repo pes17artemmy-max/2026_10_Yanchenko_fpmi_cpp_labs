@@ -1,5 +1,4 @@
 #include <iostream>
-#include <random>
 #include <iomanip>
 int *MakingArray(int &n) {
 	std::cout << "enter n: ";
