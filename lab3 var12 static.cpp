@@ -29,7 +29,9 @@ void FindingMax(int arr[], int n) {
 		for (int i = 0;i < n;i++) {
 			int count = 0;
 			for (int j = 0;j < n;j++) {
+				if(arr[i]==arr[j]{
 				count++;
+				}
 			}
 			if (count == k && (!found || arr[i] > MaxElem)) {
 				MaxElem = arr[i];
