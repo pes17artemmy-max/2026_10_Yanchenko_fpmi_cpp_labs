@@ -2,7 +2,7 @@
 #include <string>
 int main() {
 	std::string text;
-	std::cout << "enter english alfabet: ";
+	std::cout << "enter text: ";
 	std::getline(std::cin, text);
 	for (int k = 1;k < 26;k++) {
 		std::cout << "Key " << k << " : " << std::endl;
